@@ -1,0 +1,2 @@
+INSERT INTO questions (question_title, question_url, question_answer, question_options, question_type, created_at, updated_at)
+VALUES ('D\'où vient cette musique ?', 'https://www.youtube.com/watch?v=tul6zYBp9tA&ab_channel=NiskaOfficiel', 'Niska', 'Option1, Option2, Option3, Option4', 'Type de question', NOW(), NOW());

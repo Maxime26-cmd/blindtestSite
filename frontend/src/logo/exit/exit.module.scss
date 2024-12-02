@@ -1,0 +1,16 @@
+/* Exit.module.css */
+.exitButton {
+    background: transparent; /* Pas de fond */
+    border: none; /* Pas de bordure */
+    cursor: pointer; /* Curseur pointeur */
+    padding: 10px; /* Espacement */
+    transition: transform 0.2s; /* Animation lors du hover */
+
+  }
+
+
+  
+  .exitButton:hover {
+    transform: scale(1.1); /* Agrandir légèrement au hover */
+  }
+  

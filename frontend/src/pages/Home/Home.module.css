@@ -1,0 +1,22 @@
+.root {
+  display: flex;
+  justify-content: center;
+  padding: 10rem;
+}
+.root .gameContainer {
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  color: white;
+  background-color: red;
+  border-radius: 90px;
+  padding: 15rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.root .rulesContainer {
+  font-size: 2rem;
+  color: white;
+  font-family: "Satoshi", sans-serif;
+  font-weight: 400; /* Utilise Regular */
+}/*# sourceMappingURL=Home.module.css.map */

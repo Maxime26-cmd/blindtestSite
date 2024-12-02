@@ -1,0 +1,51 @@
+/* src/assets/fonts/fonts.css */
+@font-face {
+    font-family: 'Breaking';
+    src: url('../assets/Breaking.ttf') format('truetype'),
+         url('../assets/Breaking.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* src/assets/fonts/fonts.css */
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../assets/Satoshi-Light.otf') format('truetype'),
+         url('../assets/Satoshi-Light.otf') format('opentype');
+    font-weight: 300; /* Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../assets/Satoshi-Regular.otf') format('truetype'),
+         url('../assets/Satoshi-Regular.otf') format('opentype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../assets/Satoshi-Medium.otf') format('truetype'),
+         url('../assets/Satoshi-Medium.otf') format('opentype');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../assets/Satoshi-Bold.otf') format('truetype'),
+         url('../assets/Satoshi-Bold.otf') format('opentype');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../assets/Satoshi-Black.otf') format('truetype'),
+         url('../assets/Satoshi-Black.otf') format('opentype');
+    font-weight: 900; /* Black */
+    font-style: normal;
+}

@@ -1,0 +1,54 @@
+.root {
+  background-color: #222C36;
+  padding: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Breaking", sans-serif;
+  border-bottom: 1px solid gainsboro;
+}
+.root .logo {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.root .logo div {
+  text-align: center;
+}
+.root .logo div p {
+  color: white;
+  font-size: 3rem;
+}
+.root .logo div p span {
+  color: #24CA8A;
+}
+.root .logo div .party {
+  font-size: 2.5rem;
+}
+.root .logo div .party span {
+  color: #97C3DD;
+}
+.root .profile .exitButton {
+  background-color: transparent;
+  border: none;
+}
+
+.logoImage {
+  width: 5rem;
+}
+
+.nav {
+  display: flex;
+  gap: 3rem;
+  font-size: 2rem;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+.nav a:hover {
+  text-decoration: underline;
+  color: #24CA8A;
+}/*# sourceMappingURL=Header.module.css.map */

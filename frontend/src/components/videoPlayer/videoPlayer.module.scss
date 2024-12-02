@@ -1,0 +1,79 @@
+/* videoPlayer.module.css */
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .buttonGame {
+    background-color: #4CAF50; /* Vert vif */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 90px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: 'Breaking', sans-serif;
+    font-size: 2rem;
+  }
+  
+  .buttonGame:hover {
+    background-color: #45a049; /* Vert légèrement plus foncé */
+    transform: scale(1.05); /* Léger effet d'agrandissement au survol */
+  }
+  
+  .buttonGame:active {
+    transform: scale(0.95); /* Réduction à l'activation */
+  }
+
+  .points{
+    font-size: 3rem;
+    color: white;
+  }
+  
+  .videoContainer {
+    position: relative;
+    width: 640px; /* Correspond à la taille de la vidéo */
+    height: 264px;
+  }
+
+
+  .overlay {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .countdown {
+    background-color: #242424; /* Fond gris opaque */
+    width: 640px; /* Correspond à la taille de la vidéo */
+    height: 264px;
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0 ;
+  }
+
+  .clickBlock {
+    background-color: rgba($color: #000000, $alpha: 0.1); /* Fond gris opaque */
+    width: 640px; /* Correspond à la taille de la vidéo */
+    height: 264px;
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0 ;
+  }
+  
+}
